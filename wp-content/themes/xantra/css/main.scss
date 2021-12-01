@@ -1,0 +1,163 @@
+@import "./bootstrap/scss/bootstrap";
+
+
+.menu-menu-1-container {
+
+    ul, ol {
+        margin: 0 0 1.5em 0em;
+    }
+    
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+* {
+	font-family: Helvetica, sans-serif;
+}
+.first-sec {
+	background-image: url("../images/bg1.png");
+	min-height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	.logo-img {
+		max-width: 150px;
+	}
+	.menu {
+		list-style: none;
+		text-align: right;
+		li {
+			margin: 0px 10px;
+		}
+	}
+	.pos-abs {
+		position: absolute;
+		bottom: 5%;
+	}
+}
+.pos-abs {
+	p {
+		margin-bottom: -20px;
+		font-weight: 500;
+		font-size: 20px;
+	}
+	img {
+		max-width: 80px;
+	}
+}
+.pos-abs-right {
+	position: absolute;
+	bottom: 5%;
+	right: 8%;
+	p {
+		font-size: 75px;
+		line-height: 90px;
+		span {
+			font-size: 100px;
+			font-weight: 500;
+		}
+	}
+	.arabic {
+		font-size: 60px;
+		margin-bottom: -20px;
+	}
+}
+.second-sec {
+	background-image: url("../images/bg2.png");
+	min-height: 900px;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	p {
+		line-height: 25px;
+		max-width: 75%;
+	}
+}
+.third-sec {
+	background-image: url("../images/bg-3.png");
+	min-height: 900px;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+@media only screen and (max-width: 576px) {
+	.first-sec {
+		background-image: url("../images/bg1-mobile.png");
+		min-height: 100vh;
+		background-position: center center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		position: relative;
+		.logo-img {
+			max-width: 100px;
+		}
+		.pos-abs {
+			position: absolute;
+			bottom: 5%;
+			right: 5%;
+		}
+	}
+	.pos-abs-right {
+		position: absolute;
+		bottom: 5%;
+		left: 25%;
+		right: 25%;
+		p {
+			font-size: 35px;
+			line-height: 30px;
+			span {
+				font-size: 35px;
+				font-weight: 500;
+			}
+		}
+		.arabic {
+			font-size: 30px;
+			margin-bottom: 20px;
+		}
+		img {
+			max-width: 150px;
+		}
+	}
+	.pos-abs {
+		img {
+			max-width: 75px;
+			text-align: right;
+		}
+	}
+	.second-sec {
+		background-image: url("../images/bg2-mobile.png");
+		height: 100%;
+		background-position: center right;
+		background-size: cover;
+		background-repeat: no-repeat;
+		position: relative;
+		img {
+			max-width: 170px;
+		}
+		p {
+			margin-top: 230px;
+			max-width: 100%;
+		}
+	}
+	.third-sec {
+		background-image: url("../images/bg3-mobile.png");
+		min-height: 900px;
+		height: 100%;
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		position: relative;
+	}
+}
+
+
+.post, .page {
+    margin: 0 0 0;
+}
